@@ -70,7 +70,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_NO,   KC_NO,   KC_BRID, KC_BRIU, KC_NO,   KC_F6,                      KC_F7,   KC_MUTE, KC_VOLD, KC_VOLU,  KC_NO, QK_CLEAR_EEPROM,
         KC_NO,   KC_NO,   KC_HOME, KC_END,  KC_NO,   KC_NO,                      KC_NO,   KC_NO,   KC_TAB,  KC_ESC,  KC_NO,   KC_NO,
         KC_NO,   NAV_CTL, NAV_GUI, NAV_ALT, NAV_SFT, KC_NO,                      KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_NO,   KC_NO,
-        KC_NO,   IS_1,    IS_2,    IS_3,    IS_4,    IS_5,    KC_NO,    KC_NO,   IS_6,    IS_7,    IS_8,    IS_9,    IS_0,    KC_NO,
+        KC_NO,   IS_1,    IS_2,    IS_3,    IS_4,    IS_5,    KC_NO,    KC_NO,   IS_6,    IS_7,    IS_8,    IS_9,    IS_0,    KC_LGUI,
                                         KC_NO,   KC_TRNS, KC_NO,            KC_NO,   KC_TRNS, KC_NO
     )
 };
