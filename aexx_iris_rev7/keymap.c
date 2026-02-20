@@ -55,7 +55,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_NO,   IS_EXLM, IS_AT,   IS_HASH, IS_DLR,  IS_LBRC,                    IS_RBRC, IS_CIRC, IS_SLSH, IS_BSLS, IS_PIPE, KC_NO,
         KC_DEL,  IS_PLUS, IS_MINS, IS_UNDS, IS_EQL,  IS_LCBR,                    IS_RCBR, IS_DQUO, IS_QUOT, IS_GRV,  IS_QUES, KC_NO,
         KC_LSFT, IS_PERC, IS_TILD, IS_AMPR, IS_ASTR, IS_LPRN, KC_LGUI,  KC_PSCR, IS_RPRN, IS_LABK, IS_SCLN, IS_COLN, IS_RABK, KC_RSFT,
-                                         KC_LCTL, KC_TRNS, ALT_ENT,        KC_SPC,  MO(_SYMB_R), KC_LCTL
+                                         KC_LCTL, KC_TRNS, KC_LALT,        KC_LALT,  MO(_SYMB_R), KC_LCTL
     ),
 
     [_SYMB_R] = LAYOUT(
@@ -63,11 +63,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_NO,   IS_EXLM, IS_AT,   IS_HASH, IS_DLR,  IS_LBRC,                    IS_RBRC, IS_CIRC, IS_SLSH, IS_BSLS, IS_PIPE, KC_NO,
         KC_DEL,  IS_PLUS, IS_MINS, IS_UNDS, IS_EQL,  IS_LCBR,                    IS_RCBR, IS_DQUO, IS_QUOT, IS_GRV,  IS_QUES, KC_NO,
         KC_LSFT, IS_PERC, IS_TILD, IS_AMPR, IS_ASTR, IS_LPRN, KC_LGUI,  KC_PSCR, IS_RPRN, IS_LABK, IS_SCLN, IS_COLN, IS_RABK, KC_RSFT,
-                                   KC_LCTL, MO(_SYMB_L), ALT_ENT,          KC_SPC,  KC_TRNS, KC_LCTL
+                                   KC_LCTL, MO(_SYMB_L), KC_LALT,          KC_LALT,  KC_TRNS, KC_LCTL
     ),
 
     [_NAV] = LAYOUT(
-        QK_BOOT, KC_NO,   KC_BRID, KC_BRIU, KC_NO,   KC_F6,                      KC_F7,   KC_NO,   KC_VOLD, KC_VOLU,  KC_NO, QK_CLEAR_EEPROM,
+        KC_NO,   KC_NO,   KC_BRID, KC_BRIU, KC_NO,   KC_F6,                      KC_F7,   KC_MUTE, KC_VOLD, KC_VOLU,  KC_NO, QK_CLEAR_EEPROM,
         KC_NO,   KC_NO,   KC_HOME, KC_END,  KC_NO,   KC_NO,                      KC_NO,   KC_NO,   KC_TAB,  KC_ESC,  KC_NO,   KC_NO,
         KC_NO,   NAV_CTL, NAV_GUI, NAV_ALT, NAV_SFT, KC_NO,                      KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_NO,   KC_NO,
         KC_NO,   IS_1,    IS_2,    IS_3,    IS_4,    IS_5,    KC_NO,    KC_NO,   IS_6,    IS_7,    IS_8,    IS_9,    IS_0,    KC_NO,
