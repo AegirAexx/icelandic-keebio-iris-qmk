@@ -2,6 +2,8 @@
 
 Custom QMK keymaps for Keebio Iris split keyboards with Icelandic layout.
 
+[Keebio Iris website](https://keeb.io/collections/iris-split-ergonomic-keyboard)
+
 ## Overview
 
 My personal keymaps for the Keebio Iris, designed for coding on Linux and Windows. The symbol layers put all programming characters within easy reach, minimizing the hand gymnastics typically needed for brackets, braces, and other symbols.
@@ -32,4 +34,4 @@ See [KEYMAP.md](KEYMAP.md) for a visual layout reference (printable on A4).
 Contains keymaps for both Iris models I own:
 
 - `aexx_iris_rev7/` - Iris revision 7
-- `aexx_iris_ce/` - Iris Community Edition rev.1
+- `aexx_iris_ce/` - Iris Compact Edition rev.1

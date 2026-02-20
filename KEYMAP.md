@@ -11,7 +11,7 @@
 // ├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
 // |  SHIFT |   Z    |   X    |   C    |   V    |   B    |   OS   |        |  F12   |   N    |   M    |   ,    |   .    |   Þ    |  SHIFT |
 // └────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
-//                                |  CTRL  |  LMOD  | ENTER  |                 | SPACE  |  RMOD  |  CTRL  |
+//                                |  CTRL  |  LMOD  | ENT_ALT|                 | SPACE  |  RMOD  |  CTRL  |
 //                                └────────┴────────┴────────┘                 └────────┴────────┴────────┘
 
 // LMOD & RMOD LAYERS
@@ -50,4 +50,4 @@
 | OS | Operating system key (Super/Win) |
 | C+A+D | Ctrl + Alt + Delete |
 | CLR_ROM | Clear EEPROM (reset keyboard settings) |
-| (Hold for X) | Tap for primary action, hold for modifier |
+| ENT_ALT | Tap for ENTER, hold for ALT |
