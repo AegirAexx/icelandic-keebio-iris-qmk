@@ -1,7 +1,7 @@
 # Layout
 
 ```c
-// QWERTY is-IS | ENTER (Hold for ALT) | L-SHIFT + R-SHIFT = CAPS LOCK
+// QWERTY is-IS
 // ┌────────┬────────┬────────┬────────┬────────┬────────┐                          ┌────────┬────────┬────────┬────────┬────────┬────────┐
 // |  ESC   |   1    |   2    |   3    |   4    |   5    |                          |   6    |   7    |   8    |   9    |   0    |   Ö    |
 // ├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
@@ -27,7 +27,7 @@
 //                                |  CTRL  | (LMOD) |   ALT  |                 |   ALT  | (RMOD) |  CTRL  |
 //                                └────────┴────────┴────────┘                 └────────┴────────┴────────┘
 
-// CMOD (LMOD + RMOD) | C+A+D (Tap both at same time for CTRL + ALT + DEL) | CLR_ROM (Clear the EEPROM if layout seems wonky)
+// CMOD (LMOD + RMOD)
 // ┌────────┬────────┬────────┬────────┬────────┬────────┐                          ┌────────┬────────┬────────┬────────┬────────┬────────┐
 // |        |        | BRI -  | BRI +  |        | C+A+D  |                          | C+A+D  |  MUTE  | VOL -  |  VOL + |        |CLR_ROM |
 // ├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
@@ -40,3 +40,14 @@
 //                                |        |        |        |                 |        |        |        |
 //                                └────────┴────────┴────────┘                 └────────┴────────┴────────┘
 ```
+
+## Legend
+
+| Abbr | Meaning |
+|------|---------|
+| LMOD / RMOD | Left/Right symbol layer keys (thumb cluster) |
+| CMOD | Combined layer (hold LMOD + RMOD together) |
+| OS | Operating system key (Super/Win) |
+| C+A+D | Ctrl + Alt + Delete |
+| CLR_ROM | Clear EEPROM (reset keyboard settings) |
+| (Hold for X) | Tap for primary action, hold for modifier |
