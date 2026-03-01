@@ -8,6 +8,12 @@ Custom QMK keymaps for Keebio Iris split keyboards with Icelandic layout.
 
 My personal keymaps for the Keebio Iris, designed for coding on Linux and Windows. The symbol layers put all programming characters within easy reach, minimizing the hand gymnastics typically needed for brackets, braces, and other symbols.
 
+## QMK Setup, compilation and flashing
+
+I documented the whole QMK process. It's nontrivial and the document is mostly for me to reference later.
+
+See [QMK.md](QMK.md) for my detailed process.
+
 ## Keymap Cheat Sheet
 
 See [KEYMAP.md](KEYMAP.md) for a visual layout reference (printable on A4).
